@@ -1,0 +1,125 @@
+.lss-pickup-point-trigger-button {
+    margin-bottom:2.617924em;
+    width:100%;
+}
+
+#parcel_pickup_chosen_wrap{
+    margin-bottom:2.617924em;
+    background-color: #fafafa;
+    padding:1em;
+}
+
+.lss-pickup-point-list {
+    padding:1em;
+    max-height: 660px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.lss-selected-pickup-point-info {
+    display: inline-block;
+    width: calc(48% - 2px);
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border: 1px solid #ebebeb;
+}
+
+.lss-selected-pickup-point-info p {
+    margin-bottom:0;
+}
+
+.lss-selected-pickup-point-info h4{
+    margin-bottom:0;
+}
+
+.lss-selected-pickup-point-info:nth-child(2n){
+    margin-left:4%;
+}
+
+.lss-selected-pickup-point-info .button {
+    padding:0.2rem;
+    font-size: 0.9em !important;
+    margin-top:0.4rem;
+}
+
+.lss-wc-pickup-point-shipping {
+    position: fixed;
+}
+
+.lss-wc-pickup-point-shipping-wrap {
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #666;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lss-wc-pickup-point-shipping-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 760px;
+    max-width: 90%;
+    max-height: 95%;
+    background: white;
+}
+
+.lss-wc-pickup-point-shipping-modal h3 {
+    padding:1.2rem 1.2rem 0 1.2rem;
+}
+
+#lss_parcel_pickup_gmap {
+    height:400px;
+}
+
+.lss-wc-pickup-point-shipping-close {
+    position: absolute;
+    right:1rem;
+    top:1rem;
+    font-size:1em;
+    color:#4d4d4d;
+    text-decoration: none !important;
+    font-family: sans-serif;
+    display: inline-block;
+    width:2.2em;
+    height:2.2em;
+    line-height:2.2em;
+    border:1px solid #dfdfdf;
+    border-radius:3px;
+    text-align:center;
+}
+
+.lss-wc-pickup-point-shipping-wrap  .form-row {
+    padding:0 1.2rem;
+}
+
+.lss-map-preview {
+    position: relative;
+}
+
+.lss-map-loader {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background:rgba(235, 235, 235, .94);
+    text-align: center;
+}
+
+.lss-map-loader h2 {
+    margin:0;
+    padding:0;
+    line-height: 200px;
+}
